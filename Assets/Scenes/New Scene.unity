@@ -112,6 +112,49 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &725033850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 725033852}
+  - component: {fileID: 725033851}
+  m_Layer: 0
+  m_Name: 2-4SumayResultado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &725033851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725033850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e6b4061b2633e84693105336256936b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &725033852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725033850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1493407184
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,12 +248,12 @@ GameObject:
   - component: {fileID: 1534197264}
   - component: {fileID: 1534197263}
   m_Layer: 0
-  m_Name: 2-2EnConsolaPorIngresoConInspector
+  m_Name: 2-3EnConsolaPorIngresoConInspector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1534197263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,7 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea1a90328a4d93245b1ae69e7fcbdebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludo: Nacho
+  saludo: Ranzo
 --- !u!4 &1534197264
 Transform:
   m_ObjectHideFlags: 0
@@ -249,7 +292,7 @@ GameObject:
   - component: {fileID: 2063579163}
   - component: {fileID: 2063579162}
   m_Layer: 0
-  m_Name: 2-1EnConsolaSinIngreso
+  m_Name: 2-1y2EnConsolaSinIngreso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
