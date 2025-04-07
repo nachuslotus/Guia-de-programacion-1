@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codigo: G
-  cantidaddedias: 3
+  cantidaddedias: 2
 --- !u!4 &1744996851
 Transform:
   m_ObjectHideFlags: 0

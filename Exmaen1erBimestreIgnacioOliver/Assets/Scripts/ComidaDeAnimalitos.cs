@@ -27,36 +27,44 @@ public class ComidaDeAnimalitos : MonoBehaviour
     void Start()
     {
         
+        if (cantidaddedias < 3)
+        {
+            Debug.Log("Cantidad de días no valida");
+            return;
+        }
+
         
+            if (codigo == "G" || codigo == "g")
+            {
+                RacionAnimalActual = racionGatos;
 
-        if (codigo == "G" || codigo=="g")
+            }
+
+            else if (codigo == "PP" || codigo == "pp")
+            {
+                RacionAnimalActual = racionPerrosPequeños;
+            }
+
+            else if (codigo == "PG" || codigo == "pg")
+            {
+                RacionAnimalActual = racionPerrosGrandes;
+
+            }
+
+            GramoscComidaTotal = RacionAnimalActual * cantidaddedias;
+            CostoAlimento = GramoscComidaTotal / 100 * precioPorGramos;
+
+            Debug.Log("Para este periodo se necesitan " + GramoscComidaTotal + " gramos del alimento");
+
+            Debug.Log("Tenes que pagar " + CostoAlimento);
+        else
         {
-            RacionAnimalActual = racionGatos;
-
-        }
-        
-        else if (codigo == "PP" || codigo == "pp")
-        {
-            RacionAnimalActual = racionPerrosPequeños;
+            Debug.Log("Hay un error de coigo no valido");
+            return;
         }
 
-        else if (codigo == "PG" || codigo == "pg")
-        {
-            RacionAnimalActual = racionPerrosGrandes;
 
-        }
 
-        GramoscComidaTotal = RacionAnimalActual * cantidaddedias;
-        CostoAlimento = GramoscComidaTotal / 100 * precioPorGramos;
-
-        Debug.Log("Para este periodo se necesitan " + GramoscComidaTotal + " gramos del alimento");
-
-        Debug.Log("Tenes que pagar " + CostoAlimento );
-
-        if(cantidaddedias < 3)
-        {
-            Debug.Log("No podemosrealizar esto, debido a que debe ingresar una cnatidad mayor a 3 días");
-        }
 
 
 
